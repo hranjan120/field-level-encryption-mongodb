@@ -19,7 +19,7 @@ To get the application running locally:
 - Start Docker desktop
 - Place the crypto file inside `src/utils/db/` to build the docker Image.
 
-### Mongo Crypto Library OS Wise Extension 
+#### Mongo Crypto Library OS Wise Extension 
 
 |  OD           | File Extension|
 | ------------- |:-------------:|
