@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+package-lock.json
+.env.dev
+.env.prod
+src/utils/db/mongo_crypt_v1.dll
+src/utils/db/mongo_crypto_v1.so
+src/utils/db/mongo_crypto_v1.dylib

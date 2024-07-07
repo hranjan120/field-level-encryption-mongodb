@@ -1,0 +1,24 @@
+{
+  "name": "field-level-encryption-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=prod ENC_ENV=prod node server.js",
+    "dev": "NODE_ENV=dev ENC_ENV=dev nodemon server.js",
+    "container": "NODE_ENV=dev ENC_ENV=container nodemon --watch . --legacy-watch server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongodb-client-encryption": "^6.0.1",
+    "mongoose": "^8.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
